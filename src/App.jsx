@@ -1,6 +1,7 @@
 import About from "./components/About.jsx";
 import AboutApp from "./components/AboutApp.jsx";
 import AppFeatures from "./components/AppFeatures.jsx";
+import AppendDots from "./components/AppendDots.jsx";
 import CentreImage from "./components/CentreImage.jsx";
 import ComInfo from "./components/ComInfo.jsx";
 import ContactUs from "./components/ContactUs.jsx";
@@ -31,6 +32,7 @@ function App() {
       <Values />
       <ContactUs />
       <Footer />
+      <AppendDots />
     </div>
   );
 }
