@@ -1,4 +1,4 @@
-import img1 from "../images/Image3.png";
+import img1 from "../images/Image11.png";
 function About() {
   return (
     <>

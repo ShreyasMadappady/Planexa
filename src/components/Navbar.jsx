@@ -1,10 +1,9 @@
-import navimg from "../images/DarkLogo.png";
-
+import svg from "../svgs/Logo.svg";
 function Navbar() {
   return (
-    <div className="flex items-center justify-between bg-white  h-[3.92rem]">
-      <img className="h-[7.5rem]" src={navimg} alt="" />
-      <h1 className="text-[1.25rem] font-semibold pr-[1.26rem]">Download</h1>
+    <div className="flex items-center justify-between   h-[3.92rem] p-[1.26rem]">
+      <img className="h-[35px]" src={svg} alt="" />
+      <h1 className="text-[1rem] font-semibold ">Download</h1>
     </div>
   );
 }
