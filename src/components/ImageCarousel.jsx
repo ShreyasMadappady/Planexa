@@ -1,11 +1,11 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import img1 from "../images/Image1.png";
-import img2 from "../images/Image4.png";
-import img3 from "../images/Image2.png";
-import img4 from "../images/Image5.png";
-import img5 from "../images/Image3.png";
+import img1 from "../images/Image1.webp";
+import img2 from "../images/Image4.webp";
+import img3 from "../images/Image2.webp";
+import img4 from "../images/Image5.webp";
+import img5 from "../images/Image3.webp";
 
 function ImageCarousel() {
   const settings = {

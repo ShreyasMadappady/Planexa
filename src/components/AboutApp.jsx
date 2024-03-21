@@ -1,4 +1,4 @@
-import img from "../images/Image9.png";
+import img from "../images/Image9.webp";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

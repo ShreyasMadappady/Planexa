@@ -1,4 +1,4 @@
-import img1 from "../images/Image6.png";
+import img1 from "../images/Image6.webp";
 
 function ComInfo() {
   return (

@@ -1,4 +1,4 @@
-import img1 from "../images/Image11.png";
+import img1 from "../images/Image11.webp";
 function About() {
   return (
     <>
