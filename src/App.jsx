@@ -7,9 +7,11 @@ import CentreImage2 from "./components/CentreImage2.jsx";
 import ComInfo from "./components/ComInfo.jsx";
 import ContactUs from "./components/ContactUs.jsx";
 import Footer from "./components/Footer.jsx";
+import FooterSlider from "./components/FooterSlider.jsx";
 import ImageCarousel from "./components/ImageCarousel.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Values from "./components/Values.jsx";
+
 
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
       <AppFeatures />
       <Values />
       <ContactUs />
+      <FooterSlider />
       <Footer />
     </div>
   );

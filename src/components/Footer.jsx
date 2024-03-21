@@ -6,13 +6,6 @@ import svg4 from "../svgs/Linkedin.svg";
 function Footer() {
   return (
     <div className="flex flex-col mb-[3.35rem] ">
-      <div className="bg-black text-[#FFF1E1] flex justify-between px-4 py-[1.12rem] text-xs mb-[2.90rem] font-medium ">
-        <h1>FOOTBALL</h1>
-        <h1>•</h1>
-        <h1>BASKETBALL</h1> <h1>•</h1>
-        <h1>ICEHOCKEY</h1> <h1>•</h1>
-        <h1>ICEHOCKEY</h1>
-      </div>
       <div className="flex items-center flex-col gap-[3.5rem]">
         {" "}
         <button
