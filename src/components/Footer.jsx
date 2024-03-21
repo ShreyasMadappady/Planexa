@@ -1,3 +1,8 @@
+import svg1 from "../svgs/Facebook.svg";
+import svg2 from "../svgs/Twitter.svg";
+import svg3 from "../svgs/Instagram.svg";
+import svg4 from "../svgs/Linkedin.svg";
+
 function Footer() {
   return (
     <div className="flex flex-col mb-[3.35rem] ">
@@ -17,10 +22,10 @@ function Footer() {
           Download app
         </button>
         <div className="flex gap-[2.11rem]">
-          <img className="w-[2.11rem]" src="src/svgs/Facebook.svg" alt="" />
-          <img className="w-[2.11rem]" src="src/svgs/Twitter.svg" alt="" />
-          <img src="src/svgs/Instagram.svg" alt="" />
-          <img src="src/svgs/Linkedin.svg" alt="" />
+          <img src={svg1} alt="" />
+          <img src={svg2} alt="" />
+          <img src={svg3} alt="" />
+          <img src={svg4} alt="" />
         </div>{" "}
         <div className="text-[#252122] text-[1.42rem] font-semibold flex flex-col items-center">
           {" "}
