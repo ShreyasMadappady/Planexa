@@ -12,7 +12,6 @@ import ImageCarousel from "./components/ImageCarousel.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Values from "./components/Values.jsx";
 
-
 function App() {
   return (
     <div>
