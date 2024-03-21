@@ -16,7 +16,7 @@ function ImageCarousel() {
     infinite: true,
     autoplay: true,
     autoplaySpeed: 4000,
-    arrow: false,
+    arrows: false,
   };
 
   return (

@@ -25,7 +25,6 @@ function App() {
       <Values />
       <ContactUs />
       <Footer />
-      <AppendDots />
     </div>
   );
 }
