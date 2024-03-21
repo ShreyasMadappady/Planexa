@@ -6,6 +6,8 @@ import img2 from "../images/Image4.webp";
 import img3 from "../images/Image2.webp";
 import img4 from "../images/Image5.webp";
 import img5 from "../images/Image3.webp";
+import img6 from "../images/Image1.png";
+
 
 function ImageCarousel() {
   const settings = {
@@ -23,11 +25,11 @@ function ImageCarousel() {
     <div>
       <Slider {...settings}>
         {" "}
-        <img src={img1} alt="" />
-        <img src={img2} alt="" />
-        <img src={img3} alt="" />
-        <img src={img4} alt="" />
-        <img src={img5} alt="" />
+        <img src={img6} alt="" />
+        <img src={img6} alt="" />
+        <img src={img6} alt="" />
+        <img src={img6} alt="" />
+        <img src={img6} alt="" />
         {/* <div className="bg-[url('src/images/Image1.png')] bg-cover">
           <h1 className="  text-[3.12rem] text-white font-semibold pl-[2.21rem] py-[5.95rem] leading-[3.54rem]">
             You plan,
