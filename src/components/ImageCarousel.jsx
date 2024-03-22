@@ -10,7 +10,7 @@ import img6 from "../images/Image1.png";
 
 function ImageCarousel() {
   const settings = {
-    dots: true,
+    dots: false,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -24,11 +24,31 @@ function ImageCarousel() {
     <div className="relative w-full">
       <Slider {...settings}>
         {" "}
-        <img className="lg:h-[38.6rem] lg:cover" src={img6} alt="" />
-        <img className="lg:h-[38.6rem] lg:cover" src={img6} alt="" />
-        <img className="lg:h-[38.6rem] lg:cover" src={img6} alt="" />
-        <img className="lg:h-[38.6rem] lg:cover" src={img6} alt="" />
-        <img className="lg:h-[38.6rem] lg:cover" src={img6} alt="" />
+        <img
+          className=" h-[19.029rem]  lg:h-[38.6rem] object-cover "
+          src={img1}
+          alt=""
+        />
+        <img
+          className=" h-[19.029rem]  lg:h-[38.6rem] object-cover "
+          src={img2}
+          alt=""
+        />
+        <img
+          className=" h-[19.029rem]  lg:h-[38.6rem] object-cover "
+          src={img3}
+          alt=""
+        />
+        <img
+          className=" h-[19.029rem]  lg:h-[38.6rem] object-cover "
+          src={img4}
+          alt=""
+        />
+        <img
+          className=" h-[19.029rem]  lg:h-[38.6rem] object-cover "
+          src={img5}
+          alt=""
+        />
         {/* <div className="bg-[url('src/images/Image1.png')] bg-cover">
           <h1 className="  text-[3.12rem] text-white font-semibold pl-[2.21rem] py-[5.95rem] leading-[3.54rem]">
             You plan,
