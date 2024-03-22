@@ -10,7 +10,7 @@ function Values() {
       <h1 className="font-bold text-4xl mb-[1.5rem] lg:text-[3.556rem] lg:pb-5">
         The Values We Stand For
       </h1>
-      <h2 className="w-[5.56rem] bg-[#252122] self-start h-0.5  mb-[2rem] lg:w-8/12 lg:mb-[7.313rem] xl:w-[20%]"></h2>
+      <h2 className="w-[5.56rem] bg-[#252122] self-start h-0.5  mb-[2rem] lg:w-8/12 lg:mb-[4rem] xl:w-[20%]"></h2>
       <div className="lg:flex lg:flex-col lg:justify-center lg:items-center">
         <div className="lg:flex lg:justify-center lg:gap-[5%]">
           {" "}
