@@ -13,7 +13,7 @@ import Values from "./components/Values.jsx";
 
 function App() {
   return (
-    <div>
+    <div className="2xl:w-[1536px] mx-auto">
       <Navbar />
       <ImageCarousel />
       <ComInfo />

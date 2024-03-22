@@ -1,6 +1,6 @@
 function ContactUs() {
   return (
-    <div className="bg-black flex flex-col items-center mx-[1.625rem] rounded-3xl py-[1.74rem] mb-[4.5rem] lg:flex-row lg:mx-[3.208rem] lg:px-[5%] lg:py-[4.313rem] lg:gap-[10%] xl:mx-[10%] 2xl:mx-[15%]">
+    <div className="bg-black flex flex-col items-center mx-[1.625rem] rounded-3xl py-[1.74rem] mb-[4.5rem] lg:flex-row lg:mx-[3.208rem] lg:px-[5%] lg:py-[4.313rem] lg:gap-[10%] xl:mx-[10%] ">
       <h1 className="text-[#F49C25] pb-[1.74rem] font-medium text-[2rem] lg:text-[3.556rem] lg:self-start">
         Contact Us
       </h1>
