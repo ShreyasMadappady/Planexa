@@ -30,7 +30,7 @@ function FooterSlider() {
             className="flex-shrink-0 "
             style={{ width: `${100 / slides.length}%` }}
           >
-            <div className="bg-black  items-center justify-center   text-[#FFF1E1] flex   py-[1.12rem] text-xs mb-[2.90rem] font-medium ">
+            <div className="bg-black  items-center justify-center   text-[#FFF1E1] flex   py-[1.12rem] text-xs mb-[2.90rem] font-medium lg:text-[1.333rem] lg:py-[1.5rem] ">
               {slide}
             </div>
           </div>

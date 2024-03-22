@@ -21,7 +21,7 @@ function ImageCarousel() {
   };
 
   return (
-    <div className="relative ">
+    <div className="relative w-full">
       <Slider {...settings}>
         {" "}
         <img className="lg:h-[38.6rem] lg:cover" src={img6} alt="" />
@@ -54,7 +54,7 @@ function ImageCarousel() {
           </h1>{" "}
         </div> */}
       </Slider>
-      <div className="  text-[3.12rem] flex flex-col text-white absolute top-[25%] font-semibold pl-[2.21rem] py-[5.95rem] leading-[3.54rem] lg:text-[6.37rem] lg:gap-16  ">
+      <div className=" text-[3.12rem] flex flex-col text-white absolute top-[0%] lg:top-[20%] font-semibold pl-[2.21rem] py-[5.95rem] leading-[3.54rem] lg:text-[6.37rem] lg:gap-16  ">
         {" "}
         <h1>You plan,</h1> <h1>We execute</h1>{" "}
       </div>

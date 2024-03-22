@@ -11,7 +11,7 @@ function ComInfo() {
         <h2 className="w-[5.56rem] bg-[#252122] self-start h-0.5 lg:w-[16.41rem]"></h2>
       </div>
 
-      <img className="rounded-lg lg:w-[42.83rem]" src={img1} alt="" />
+      <img className="rounded-lg lg:w-[50%]" src={img1} alt="" />
     </div>
   );
 }
