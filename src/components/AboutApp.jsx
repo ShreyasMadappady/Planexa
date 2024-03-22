@@ -15,8 +15,8 @@ function AboutApp() {
     arrows: true,
   };
   return (
-    <>
-      <div className=" items-center pt-[2.33rem] px-[1.63rem] pb-[5.09rem] lg:hidden">
+    <div className="xl:mx-[10%]">
+      <div className=" items-center pt-[2.33rem] px-[1.63rem] pb-[5.09rem] lg:hidden ">
         <h1 className="text-4xl font-bold mb-[1.33rem]  text-[#252122] lg:text-[3.556rem]">
           About app
         </h1>{" "}
@@ -46,7 +46,7 @@ function AboutApp() {
           </h2>{" "}
         </Slider>
       </div>
-      <div className=" items-center pt-[10.313rem] px-[3.208rem] pb-[5.09rem] hidden  lg:flex flex-row  justify-between ">
+      <div className=" items-center pt-[10.313rem] px-[3.208rem] pb-[5.09rem] hidden  lg:flex flex-row  justify-between xl:px-[2%]">
         <div className="w-5/12">
           {" "}
           <h1 className="text-4xl font-bold mb-[2.33rem]  text-[#252122] lg:text-[3.556rem]">
@@ -81,7 +81,7 @@ function AboutApp() {
           alt=""
         />
       </div>
-    </>
+    </div>
   );
 }
 

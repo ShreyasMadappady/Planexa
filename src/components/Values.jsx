@@ -6,15 +6,15 @@ import svg5 from "../svgs/Person.svg";
 
 function Values() {
   return (
-    <div className="py-[3.5rem] pl-[1.63rem] w-9/12 flex flex-col lg:w-full lg:px-[3.208rem] lg:mt-[6.5rem] ">
+    <div className="py-[3.5rem] pl-[1.63rem] w-9/12 flex flex-col lg:w-full lg:px-[3.208rem] lg:mt-[6.5rem] xl:px-[10%] ">
       <h1 className="font-bold text-4xl mb-[1.5rem] lg:text-[3.556rem] lg:pb-5">
         The Values We Stand For
       </h1>
       <h2 className="w-[5.56rem] bg-[#252122] self-start h-0.5  mb-[2rem] lg:w-8/12 lg:mb-[7.313rem]"></h2>
       <div className="lg:flex lg:flex-col lg:justify-center lg:items-center">
-        <div className="lg:flex lg:justify-center lg:gap-[4.81rem]">
+        <div className="lg:flex lg:justify-center lg:gap-[5%]">
           {" "}
-          <div className="flex flex-col gap-2 pb-[3.32rem] lg:w-1/2">
+          <div className="flex flex-col gap-2 pb-[3.32rem] ">
             <img className="w-[3.28rem] lg:w-[5.556rem]" src={svg1} alt="" />
             <h1 className="font-semibold text-2xl lg:text-[2rem]">
               Community First
@@ -25,7 +25,7 @@ function Values() {
               sense of belonging and collective growth.
             </h2>
           </div>
-          <div className="flex flex-col gap-2 pb-[3.32rem] lg:w-1/2">
+          <div className="flex flex-col gap-2 pb-[3.32rem] ">
             <img className="w-[3.28rem] lg:w-[5.556rem]" src={svg2} alt="" />
             <h1 className="font-semibold text-2xl lg:text-[2rem]">Holistic Wellness</h1>
             <h2 className="font-medium text-md lg:text-[1.333rem]">
@@ -34,7 +34,7 @@ function Values() {
               encouraging a balanced approach to wellness.
             </h2>
           </div>
-          <div className="flex flex-col gap-2 pb-[3.32rem] lg:w-1/2">
+          <div className="flex flex-col gap-2 pb-[3.32rem] ">
             <img className="w-[3.28rem] lg:w-[5.556rem]" src={svg5} alt="" />
             <h1 className="font-semibold text-2xl lg:text-[2rem]">
               Relationships & Connectivity
@@ -47,7 +47,7 @@ function Values() {
           </div>
         </div>
         <div className="lg:flex lg:justify-between lg:gap-[4.81rem] lg:px-[9rem]">
-          <div className="flex flex-col gap-2 pb-[3.32rem] lg:w-1/2">
+          <div className="flex flex-col gap-2 pb-[3.32rem] ">
             <img className="w-[3.28rem] lg:w-[5.556rem]" src={svg4} alt="" />
             <h1 className="font-semibold text-2xl lg:text-[2rem]">
               Empowering Community Well-being
@@ -57,7 +57,7 @@ function Values() {
               collaborative initiatives and unwavering support.
             </h2>
           </div>
-          <div className="flex flex-col gap-2 pb-[3.32rem] lg:w-1/2">
+          <div className="flex flex-col gap-2 pb-[3.32rem]">
             <img className="w-[3.28rem] lg:w-[5.556rem]" src={svg3} alt="" />
             <h1 className="font-semibold text-2xl lg:text-[2rem]">Inclusivity & Diversity</h1>
             <h2 className="font-medium text-md lg:text-[1.333rem]">
