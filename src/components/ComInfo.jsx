@@ -2,7 +2,7 @@ import img1 from "../images/Image6.webp";
 
 function ComInfo() {
   return (
-    <div className="flex flex-col items-center px-[1.63rem] pt-[2.33rem] gap-[1.33rem] pb-[6.21rem] lg:flex-row lg:mx-[3.2rem] lg:mt-[10.5rem] xl:mx-[10%] xl:gap-0">
+    <div className="flex flex-col items-center px-[1.63rem] pt-[2.33rem] gap-[1.33rem] pb-[2.524rem] lg:flex-row lg:mx-[3.2rem] lg:my-[5.034rem] xl:mx-[10%] xl:gap-0">
       <div>
         <h1 className="font-bold pb-[1.33rem] text-4xl text-[#252122] lg:text-[3.55rem] lg:leading-[3.87rem] lg:pb-[2.33rem]">
           Transformative

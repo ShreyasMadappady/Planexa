@@ -12,10 +12,10 @@ function AboutApp() {
     infinite: true,
     autoplay: true,
     autoplaySpeed: 4000,
-    arrows: true,
+    arrows: false,
   };
   return (
-    <div className="xl:mx-[10%]">
+    <div className="">
       <div className=" items-center pt-[2.33rem] px-[1.63rem] pb-[5.09rem] lg:hidden ">
         <h1 className="text-4xl font-bold mb-[1.33rem]  text-[#252122] lg:text-[3.556rem]">
           About app
@@ -46,7 +46,7 @@ function AboutApp() {
           </h2>{" "}
         </Slider>
       </div>
-      <div className=" items-center pt-[10.313rem] px-[3.208rem] pb-[5.09rem] hidden  lg:flex flex-row  justify-between xl:px-[2%]">
+      <div className=" items-center mt-[5.474rem] px-[3.208rem] pb-[5.09rem] hidden  lg:flex flex-row  justify-between xl:px-[3.208rem]">
         <div className="w-5/12">
           {" "}
           <h1 className="text-4xl font-bold mb-[2.33rem]  text-[#252122] lg:text-[3.556rem]">
@@ -76,7 +76,7 @@ function AboutApp() {
           </Slider>
         </div>
         <img
-          className="  mb-[2.33rem] w-[50%] lg:h-[48.137rem] lg:rounded-[2.778rem] cover"
+          className="  mb-[2.33rem] w-[50%] lg:h-[48.137rem]  lg:w-[35.75rem]  lg:rounded-[2.778rem] cover"
           src={img}
           alt=""
         />

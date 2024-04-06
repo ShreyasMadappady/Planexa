@@ -1,7 +1,7 @@
 import img1 from "../images/Image11.webp";
 function About() {
   return (
-    <div className="flex flex-col lg:flex-row  gap-[2.625rem] mx-[5%] my-[2.54rem] lg:my-[8.063rem] xl:mx-[10%]">
+    <div className="flex flex-col lg:flex-row  gap-[2.625rem] mx-[5%] my-[2.54rem] lg:my-[5.474rem] xl:mx-[10%]">
       <div className="bg-black  rounded-[1.64rem]  lg:rounded-[2.778rem] flex flex-col justify-between">
         <div className="pl-[2.51rem] pt-[2.57rem] pr-[3.46rem] ">
           {" "}

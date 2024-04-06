@@ -6,13 +6,13 @@ import svg5 from "../svgs/Person.svg";
 
 function Values() {
   return (
-    <div className="py-[3.5rem] pl-[1.63rem] w-9/12 flex flex-col lg:w-full lg:px-[3.208rem] lg:mt-[6.5rem] xl:px-[10%] ">
+    <div className="py-[3.5rem] pl-[1.63rem] w-9/12 flex flex-col lg:w-full lg:px-[3.208rem] lg:mt-[5.474rem] xl:px-[10%] ">
       <h1 className="font-bold text-4xl mb-[1.5rem] lg:text-[3.556rem] lg:pb-5">
         The Values We Stand For
       </h1>
       <h2 className="w-[5.56rem] bg-[#252122] self-start h-0.5  mb-[2rem] lg:w-8/12 lg:mb-[4rem] xl:w-[20%]"></h2>
-      <div className="lg:flex lg:flex-col lg:justify-center lg:items-center">
-        <div className="lg:flex lg:justify-center lg:gap-[5%]">
+      <div className="lg:flex lg:flex-col lg:justify-center lg:items-center ">
+        <div className="lg:flex lg:justify-center lg:gap-[5%] ">
           {" "}
           <div className="flex flex-col gap-2 pb-[3.32rem] ">
             <img className="w-[3.28rem] lg:w-[5.556rem]" src={svg1} alt="" />
@@ -27,7 +27,9 @@ function Values() {
           </div>
           <div className="flex flex-col gap-2 pb-[3.32rem] ">
             <img className="w-[3.28rem] lg:w-[5.556rem]" src={svg2} alt="" />
-            <h1 className="font-semibold text-2xl lg:text-[2rem]">Holistic Wellness</h1>
+            <h1 className="font-semibold text-2xl lg:text-[2rem]">
+              Holistic Wellness
+            </h1>
             <h2 className="font-medium text-md lg:text-[1.333rem]">
               Acknowledging the interconnectedness of mental and physical
               health, we champion initiatives that nurture the whole person,
@@ -59,7 +61,9 @@ function Values() {
           </div>
           <div className="flex flex-col gap-2 pb-[3.32rem]">
             <img className="w-[3.28rem] lg:w-[5.556rem]" src={svg3} alt="" />
-            <h1 className="font-semibold text-2xl lg:text-[2rem]">Inclusivity & Diversity</h1>
+            <h1 className="font-semibold text-2xl lg:text-[2rem]">
+              Inclusivity & Diversity
+            </h1>
             <h2 className="font-medium text-md lg:text-[1.333rem]">
               Embracing thestrength found in diversity, we are committed to
               creating spaces and eventsthat are welcoming to all, regardless of
