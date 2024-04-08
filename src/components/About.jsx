@@ -3,23 +3,23 @@ import { motion } from "framer-motion";
 function About() {
   return (
     <div className="flex flex-col lg:flex-row  gap-[2.625rem] mx-[5%] my-[2.54rem] lg:my-[5.474rem] xl:mx-[10%]">
-      <motion.div
-        initial={{
-          opacity: 0,
-          // if odd index card,slide from right instead of left
-          y: 50,
-        }}
-        whileInView={{
-          opacity: 1,
-          y: 0, // Slide in to its original position
-          transition: {
-            duration: 1, // Animation duration
-          },
-        }}
-        viewport={{ once: true }}
-        className="bg-black  rounded-[1.64rem]  lg:rounded-[2.778rem] flex flex-col justify-between"
-      >
-        <div className="pl-[2.51rem] pt-[2.57rem] pr-[3.46rem] ">
+      <div className="bg-black  rounded-[1.64rem]  lg:rounded-[2.778rem] flex flex-col justify-between">
+        <motion.div
+          initial={{
+            opacity: 0,
+            // if odd index card,slide from right instead of left
+            y: 50,
+          }}
+          whileInView={{
+            opacity: 1,
+            y: 0, // Slide in to its original position
+            transition: {
+              duration: 1, // Animation duration
+            },
+          }}
+          viewport={{ once: true }}
+          className="pl-[2.51rem] pt-[2.57rem] pr-[3.46rem] "
+        >
           {" "}
           <h1 className="text-[#F49C25] text-[2.04rem] font-bold pb-[0.46rem] lg:text-[3.07rem]">
             Who Are we
@@ -32,30 +32,30 @@ function About() {
             barriers and creating platforms for mutual understanding and
             support.
           </h2>
-        </div>
+        </motion.div>
         <img
           className="rounded-b-[1.64rem]  lg:rounded-b-[2.778rem] lg:h-[21.274rem]"
           src={img1}
           alt=""
         />
-      </motion.div>
-      <motion.div
-        initial={{
-          opacity: 0,
-          // if odd index card,slide from right instead of left
-          y: 50,
-        }}
-        whileInView={{
-          opacity: 1,
-          y: 0, // Slide in to its original position
-          transition: {
-            duration: 1, // Animation duration
-          },
-        }}
-        viewport={{ once: true }}
-        className="bg-black  rounded-[1.64rem]  lg:rounded-[2.778rem] flex flex-col justify-between"
-      >
-        <div className="pl-[2.51rem] pt-[2.57rem] pr-[3.46rem] lg:h-[33.088rem]">
+      </div>
+      <div className="bg-black  rounded-[1.64rem]  lg:rounded-[2.778rem] flex flex-col justify-between">
+        <motion.div
+          initial={{
+            opacity: 0,
+            // if odd index card,slide from right instead of left
+            y: 50,
+          }}
+          whileInView={{
+            opacity: 1,
+            y: 0, // Slide in to its original position
+            transition: {
+              duration: 1, // Animation duration
+            },
+          }}
+          viewport={{ once: true }}
+          className="pl-[2.51rem] pt-[2.57rem] pr-[3.46rem] lg:h-[33.088rem]"
+        >
           {" "}
           <h1 className="text-[#F49C25] text-[2.04rem] font-bold pb-[0.46rem] lg:text-[3.07rem]">
             Vision
@@ -68,13 +68,13 @@ function About() {
             mutual support, making the joy of shared experiences and the pursuit
             of personal growth accessible to all.
           </h2>
-        </div>
+        </motion.div>
         <img
           className="rounded-b-[1.64rem]  lg:rounded-b-[2.778rem] lg:h-[21.274rem]"
           src={img1}
           alt=""
         />
-      </motion.div>
+      </div>
     </div>
   );
 }
