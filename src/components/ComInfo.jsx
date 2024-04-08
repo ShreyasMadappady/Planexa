@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import img1 from "../images/Image6.webp";
 
 function ComInfo() {
