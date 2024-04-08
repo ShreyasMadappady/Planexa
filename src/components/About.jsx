@@ -7,7 +7,7 @@ function About() {
         initial={{
           opacity: 0,
           // if odd index card,slide from right instead of left
-          y: 100,
+          y: 50,
         }}
         whileInView={{
           opacity: 1,
@@ -43,7 +43,7 @@ function About() {
         initial={{
           opacity: 0,
           // if odd index card,slide from right instead of left
-          y: 100,
+          y: 50,
         }}
         whileInView={{
           opacity: 1,
