@@ -7,16 +7,18 @@ import img3 from "../images/Image2.webp";
 import img4 from "../images/Image5.webp";
 import img5 from "../images/Image3.webp";
 import img6 from "../images/Image1.png";
+import img7 from "../svgs/googleplay.svg";
+import img8 from "../svgs/applestore.svg";
 
 function ImageCarousel() {
   const settings = {
     dots: false,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 3000,
     arrows: false,
   };
 
@@ -74,10 +76,23 @@ function ImageCarousel() {
           </h1>{" "}
         </div> */}
       </Slider>
-      <div className=" text-[3.12rem] flex flex-col text-white absolute top-[0%] lg:top-[20%] font-semibold pl-[2.21rem] py-[5.95rem] leading-[3.54rem] lg:text-[6.37rem] lg:gap-16  ">
+      <div className=" text-[3.12rem] flex flex-col text-white absolute top-[0%] lg:top-[20%] font-semibold pl-[2.21rem] py-[5rem] leading-[3.54rem] lg:text-[6.37rem] lg:gap-16  ">
         {" "}
         <h1>You plan,</h1> <h1>We execute</h1>{" "}
-      </div>
+      </div>{" "}
+      <div className="  flex  absolute top-[56%] lg:top-[60%] font-semibold pl-[2.21rem]  leading-[3.54rem]  lg:gap-16  ">
+        {" "}
+        <div className="flex gap-[0.563rem] ">
+          {" "}
+          <button>
+            <img className="lg:w-[200px]" src={img7} alt="" />
+          </button>
+          <button>
+            {" "}
+            <img className="lg:w-[200px]" src={img8} alt="" />
+          </button>
+        </div>
+      </div>{" "}
     </div>
   );
 }

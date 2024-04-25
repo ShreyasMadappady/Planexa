@@ -1,4 +1,5 @@
 import img1 from "../images/Image11.webp";
+import img2 from "../images/Image12.webp";
 import { motion } from "framer-motion";
 function About() {
   return (
@@ -34,7 +35,7 @@ function About() {
           </h2>
         </motion.div>
         <img
-          className="rounded-b-[1.64rem]  lg:rounded-b-[2.778rem] lg:h-[21.274rem]"
+          className="rounded-b-[1.64rem]  lg:rounded-b-[2.778rem] lg:h-[21.274rem] object-cover"
           src={img1}
           alt=""
         />
@@ -70,8 +71,8 @@ function About() {
           </h2>
         </motion.div>
         <img
-          className="rounded-b-[1.64rem]  lg:rounded-b-[2.778rem] lg:h-[21.274rem]"
-          src={img1}
+          className="rounded-b-[1.64rem]  lg:rounded-b-[2.778rem] lg:h-[21.274rem] object-cover"
+          src={img2}
           alt=""
         />
       </div>
