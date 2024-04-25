@@ -66,8 +66,8 @@ function AboutApp() {
           </div>
         </Slider>
       </div>
-      <div className=" items-center mt-[5.474rem] px-[3.208rem] pb-[5.09rem] hidden  lg:flex flex-row  justify-between xl:px-[3.208rem]">
-        <div className="w-6/12">
+      <div className=" items-center mt-[5.474rem]  pb-[5.09rem] hidden  lg:flex flex-row  justify-between xl:px-[3.208rem] gap-">
+        <div className="w-5/12">
           {" "}
           <h1 className="text-4xl font-bold mb-[2.33rem]  text-[#252122] lg:text-[3.556rem]">
             How it works
@@ -113,7 +113,7 @@ function AboutApp() {
           </Slider>
         </div>
         <img
-          className="  mb-[2.33rem] w-[50%] lg:h-[48.137rem]  lg:w-[35.75rem]  lg:rounded-[2.778rem] cover"
+          className="  mb-[2.33rem] w-[50%] lg:h-[45rem]  lg:w-[35.75rem]  lg:rounded-[2.778rem] cover"
           src={img}
           alt=""
         />
