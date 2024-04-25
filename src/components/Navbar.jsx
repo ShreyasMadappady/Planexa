@@ -16,7 +16,7 @@ function Navbar() {
           <img className="w-[1.381rem]" src={svg3} alt="" />
           <img className="w-[1.381rem]" src={svg4} alt="" />
         </div>
-        <h1 className="text-[1rem] font-semibold ">Download</h1>
+        <h1 className="text-[1rem] font-semibold lg:hidden ">Download</h1>
       </div>
     </div>
   );
