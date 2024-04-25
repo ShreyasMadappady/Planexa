@@ -4,7 +4,7 @@ function ContactUs() {
       <div className="hidden lg:flex text-[4rem] font-bold lg:w-[19.5rem]">
         <h1>Let us know what you think</h1>
       </div>
-      <div className="bg-black flex flex-col items-center mx-[1.625rem] lg:mx-0 rounded-3xl py-[1.74rem] mb-[4.5rem]   lg:w-7/12 ">
+      <div className="bg-black flex flex-col items-center mx-[1.2rem] lg:mx-0 rounded-3xl py-[1.74rem] mb-[4.5rem]   lg:w-7/12 ">
         <h1 className="text-[#F49C25] pb-[1.74rem] lg:hidden font-medium text-[2rem] lg:text-[3.556rem] lg:self-start">
           Contact Us
         </h1>
