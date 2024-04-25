@@ -36,13 +36,12 @@ function AboutApp() {
             of personal growth accessible to all.
           </h2>{" "}
           <h2 className="text-2xl font-normal text-[#252122]">
-            It is the ipsum dolor sit, amet consectetur adipisicing elit.
-            Eveniet ex ullam molestias saepe dolores, numquam quas molestiae
-            exercitationem. Iste tenetur quis quas doloremque provident voluptas
-            unde commodi labore vitae praesentium. Lorem ipsum dolor sit, amet
-            consectetur adipisicing elit. Assumenda, laborum vero voluptate
-            quidem culpa, tempore reprehenderit placeat sapiente sint, eos ad
-            laudantium aut quia eum recusandae optio accusamus. Commodi, animi.
+            We envision a world where sports and events are not just activities,
+            but catalysts for forging enduring relationships, nurturing holistic
+            health, and building resilient generations. Our aim is to be at the
+            forefront of a societal shift towards inclusivity, wellness, and
+            mutual support, making the joy of shared experiences and the pursuit
+            of personal growth accessible to all.
           </h2>{" "}
         </Slider>
       </div>
