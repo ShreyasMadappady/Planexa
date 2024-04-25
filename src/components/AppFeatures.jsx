@@ -34,7 +34,7 @@ function AppFeatures() {
         App Features
       </h1>
       <div className="mx-auto w-8/12 ">
-        <div className=" flex flex-col items-start lg:grid lg:grid-cols-2">
+        <div className=" flex flex-col items-start lg:grid lg:grid-cols-2 lg:gap-x-20">
           {arr.map((item, index) => {
             return (
               <motion.h1
