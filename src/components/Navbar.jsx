@@ -6,9 +6,10 @@ import svg4 from "../svgs/Linkedin.svg";
 
 function Navbar() {
   return (
-    <div className="flex items-center justify-between   h-[3.92rem] p-[1.26rem]">
-      <img className="h-[35px]" src={svg} alt="" />
-      <div className="flex gap-[1.389rem]">
+    <div className="flex items-center justify-center lg:justify-between  h-[3.92rem] p-[1.26rem]">
+      {" "}
+      <img className="h-[35px] " src={svg} alt="" />{" "}
+      <div className=" gap-[1.389rem] hidden lg:flex">
         {" "}
         <div className="  gap-[1.389rem] hidden lg:flex">
           <img className="w-[1.381rem]" src={svg1} alt="" />
@@ -16,7 +17,7 @@ function Navbar() {
           <img className="w-[1.381rem]" src={svg3} alt="" />
           <img className="w-[1.381rem]" src={svg4} alt="" />
         </div>
-        <h1 className="text-[1rem] font-semibold lg:hidden ">Download</h1>
+        {/* <h1 className="text-[1rem] font-semibold lg:hidden ">Download</h1> */}
       </div>
     </div>
   );
