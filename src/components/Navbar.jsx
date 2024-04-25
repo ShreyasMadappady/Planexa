@@ -12,10 +12,27 @@ function Navbar() {
       <div className=" gap-[1.389rem] hidden lg:flex">
         {" "}
         <div className="  gap-[1.389rem] hidden lg:flex">
-          <img className="w-[1.381rem]" src={svg1} alt="" />
-          <img className="w-[1.381rem]" src={svg2} alt="" />
-          <img className="w-[1.381rem]" src={svg3} alt="" />
-          <img className="w-[1.381rem]" src={svg4} alt="" />
+          <a
+            href="https://www.facebook.com/profile.php?id=61558578759650&mibextid=ZbWKwL"
+            target="_blank"
+          >
+            {" "}
+            <img className="w-[1.381rem]" src={svg1} alt="" />
+          </a>
+          {/* <a href="">
+            {" "}
+            <img className="w-[1.381rem]" src={svg2} alt="" />
+          </a> */}
+          <a
+            href="https://www.instagram.com/planexa.ca?utm_source=qr&igsh=eXZiemwzdXU2eGY="
+            target="_blank"
+          >
+            {" "}
+            <img className="w-[1.381rem]" src={svg3} alt="" />
+          </a>
+          <a href="https://www.linkedin.com/company/planexaca/" target="_blank">
+            <img className="w-[1.381rem]" src={svg4} alt="" />
+          </a>
         </div>
         {/* <h1 className="text-[1rem] font-semibold lg:hidden ">Download</h1> */}
       </div>

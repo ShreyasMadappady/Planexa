@@ -18,7 +18,7 @@ function AboutApp() {
     <div className="">
       <div className=" items-center pt-[2.33rem] px-[1.63rem] pb-[5.09rem] lg:hidden ">
         <h1 className="text-4xl font-bold mb-[1.33rem]  text-[#252122] lg:text-[3.556rem]">
-          About app
+          How it works
         </h1>{" "}
         <h2 className="w-[5.56rem]  mb-[2.33rem] bg-[#252122] self-start h-0.5 lg:w-[16.41rem]"></h2>
         <img
@@ -27,51 +27,89 @@ function AboutApp() {
           alt=""
         />
         <Slider {...settings}>
-          <h2 className="text-2xl font-normal text-[#252122] ">
-            We envision a world where sports and events are not just activities,
-            but catalysts for forging enduring relationships, nurturing holistic
-            health, and building resilient generations. Our aim is to be at the
-            forefront of a societal shift towards inclusivity, wellness, and
-            mutual support, making the joy of shared experiences and the pursuit
-            of personal growth accessible to all.
-          </h2>{" "}
-          <h2 className="text-2xl font-normal text-[#252122]">
-            We envision a world where sports and events are not just activities,
-            but catalysts for forging enduring relationships, nurturing holistic
-            health, and building resilient generations. Our aim is to be at the
-            forefront of a societal shift towards inclusivity, wellness, and
-            mutual support, making the joy of shared experiences and the pursuit
-            of personal growth accessible to all.
-          </h2>{" "}
+          {" "}
+          <div>
+            <h1 className="text-[1.5rem] font-bold pb-[0.5rem] text-[#252122]">
+              1. Download and Sign Up.
+            </h1>
+            <h2 className="text-[1.5rem] font-normal text-[#252122]">
+              Download our app from either the App Store or Google Play Store.
+              Our intuitive user interface ensures a seamless onboarding
+              process, making it effortless for you to get started.
+            </h2>{" "}
+          </div>
+          <div>
+            {" "}
+            <h1 className="text-[1.5rem] font-bold pb-[0.5rem] text-[#252122]">
+              2. Create or join an event.
+            </h1>
+            <h2 className="text-[1.5rem] font-normal text-[#252122]">
+              Utilize our platform to effortlessly craft and personalize your
+              events, which can then be seamlessly shared with your community
+              through various channels. Explore and engage with a myriad of
+              events in your vicinity, providing users with unparalleled
+              opportunities to connect and participate.
+            </h2>{" "}
+          </div>
+          <div>
+            {" "}
+            <h1 className="text-[1.5rem] font-bold pb-[0.5rem] text-[#252122]">
+              3. Organize, Payout and Connect.
+            </h1>
+            <h2 className="text-[1.5rem] font-normal text-[#252122]">
+              Experience a wealth of features tailored to streamline event
+              organization and planning, including scheduled payouts to
+              alleviate post-event tasks. It's time for you to unwind and relish
+              in your event, knowing that we've got you covered every step of
+              the way.
+            </h2>{" "}
+          </div>
         </Slider>
       </div>
       <div className=" items-center mt-[5.474rem] px-[3.208rem] pb-[5.09rem] hidden  lg:flex flex-row  justify-between xl:px-[3.208rem]">
-        <div className="w-5/12">
+        <div className="w-6/12">
           {" "}
           <h1 className="text-4xl font-bold mb-[2.33rem]  text-[#252122] lg:text-[3.556rem]">
-            About app
+            How it works
           </h1>{" "}
           <h2 className="w-[5.56rem]  mb-[2.33rem] bg-[#252122] self-start h-0.5 lg:w-[16.41rem]"></h2>{" "}
           <Slider {...settings}>
-            <h2 className="text-2xl font-normal text-[#252122] ">
-              We envision a world where sports and events are not just
-              activities, but catalysts for forging enduring relationships,
-              nurturing holistic health, and building resilient generations. Our
-              aim is to be at the forefront of a societal shift towards
-              inclusivity, wellness, and mutual support, making the joy of
-              shared experiences and the pursuit of personal growth accessible
-              to all.
-            </h2>{" "}
-            <h2 className="text-2xl font-normal text-[#252122]">
-              It is the ipsum dolor sit, amet consectetur adipisicing elit.
-              Eveniet ex ullam molestias saepe dolores, numquam quas molestiae
-              exercitationem. Iste tenetur quis quas doloremque provident
-              voluptas unde commodi labore vitae praesentium. Lorem ipsum dolor
-              sit, amet consectetur adipisicing elit. Assumenda, laborum vero
-              voluptate quidem culpa, tempore reprehenderit placeat sapiente
-              sint, eos ad laudantium aut quia eum recusandae optio accusamus.
-              Commodi, animi.
-            </h2>{" "}
+            <div>
+              <h1 className="text-[2.25rem] font-bold pb-[0.5rem] text-[#252122]">
+                1. Download and Sign Up.
+              </h1>
+              <h2 className="text-[2rem] font-normal text-[#252122]">
+                Download our app from either the App Store or Google Play Store.
+                Our intuitive user interface ensures a seamless onboarding
+                process, making it effortless for you to get started.
+              </h2>{" "}
+            </div>
+            <div>
+              {" "}
+              <h1 className="text-[2.25rem] font-bold pb-[0.5rem] text-[#252122]">
+                2. Create or join an event.
+              </h1>
+              <h2 className="text-[2rem] font-normal text-[#252122]">
+                Utilize our platform to effortlessly craft and personalize your
+                events, which can then be seamlessly shared with your community
+                through various channels. Explore and engage with a myriad of
+                events in your vicinity, providing users with unparalleled
+                opportunities to connect and participate.
+              </h2>{" "}
+            </div>
+            <div>
+              {" "}
+              <h1 className="text-[2.25rem] font-bold pb-[0.5rem] text-[#252122]">
+                3. Organize, Payout and Connect.
+              </h1>
+              <h2 className="text-[2rem] font-normal text-[#252122]">
+                Experience a wealth of features tailored to streamline event
+                organization and planning, including scheduled payouts to
+                alleviate post-event tasks. It's time for you to unwind and
+                relish in your event, knowing that we've got you covered every
+                step of the way.
+              </h2>{" "}
+            </div>
           </Slider>
         </div>
         <img
