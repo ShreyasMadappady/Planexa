@@ -9,7 +9,7 @@ function ContactUs() {
           Contact Us
         </h1>
         <form
-          className="flex flex-col gap-[0.73rem] w-full px-[1.63rem] lg:gap-[1.5rem]  text-white"
+          className="flex flex-col gap-[0.73rem] w-full px-[1.1rem] lg:px-[1.63rem] lg:gap-[1.5rem]  text-white"
           action="#"
         >
           <input
