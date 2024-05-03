@@ -33,7 +33,7 @@ function AppFeatures() {
     // <div
     //   className={`bg-[${img}]  text-white flex flex-col items-center font-medium bg-cover py-[3.17rem]  `}
     // >
-    <div className="bg-[url('/src/images/Image10.webp')]  text-white flex flex-col items-center font-medium bg-fixed py-[3.17rem]  ">
+    <div className="bg-[url('/src/images/Image10.webp')]  text-white flex flex-col items-center font-medium bg-cover py-[3.17rem]  ">
       <h1 className=" text-[2.25rem] lg:text-[3.876rem]   pb-[2.5rem] lg:pb-[4rem]">
         {" "}
         App Features
