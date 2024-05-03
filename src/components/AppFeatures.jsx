@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import img from "/src/images/Image10.webp";
+
 function AppFeatures() {
   const arr = [
     "Subscription/Month  ",
@@ -28,13 +30,16 @@ function AppFeatures() {
     "       24*7 Support",
   ];
   return (
-    <div className="bg-[url('/src/images/Image10.webp')] text-white flex flex-col items-center font-medium bg-cover py-[3.17rem]  ">
+    // <div
+    //   className={`bg-[${img}]  text-white flex flex-col items-center font-medium bg-cover py-[3.17rem]  `}
+    // >
+    <div className="bg-[url('/src/images/Image10.webp')]  text-white flex flex-col items-center font-medium bg-fixed py-[3.17rem]  ">
       <h1 className=" text-[2.25rem] lg:text-[3.876rem]   pb-[2.5rem] lg:pb-[4rem]">
         {" "}
         App Features
       </h1>
-      <div className="mx-auto w-8/12 ">
-        <div className=" flex flex-col items-start lg:grid lg:grid-cols-2 lg:gap-x-20">
+      <div className="w-8/12 mx-auto ">
+        <div className="flex flex-col items-start lg:grid lg:grid-cols-2 lg:gap-x-20">
           {arr.map((item, index) => {
             return (
               <motion.h1
