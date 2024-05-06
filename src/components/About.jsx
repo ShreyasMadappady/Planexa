@@ -13,7 +13,7 @@ function About() {
     slidesToScroll: 1,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 5000,
     arrows: false,
   };
   return (
