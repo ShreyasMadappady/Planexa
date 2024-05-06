@@ -6,9 +6,9 @@ import svg4 from "../svgs/Linkedin.svg";
 
 function Navbar() {
   return (
-    <div className="flex items-center justify-center lg:justify-between  h-[3.92rem] p-[1.26rem]">
+    <div className="flex  items-center justify-center lg:justify-between  h-[3.92rem] p-[1.26rem] 2xl:p-10">
       {" "}
-      <img className="h-[35px] " src={svg} alt="" />{" "}
+      <img className="h-[35px] 2xl:h-[50px]" src={svg} alt="" />{" "}
       <div className=" gap-[1.389rem] hidden lg:flex">
         {" "}
         <div className="  gap-[1.389rem] hidden lg:flex">
@@ -17,7 +17,7 @@ function Navbar() {
             target="_blank"
           >
             {" "}
-            <img className="w-[1.381rem]" src={svg1} alt="" />
+            <img className="w-[1.381rem]  2xl:w-[2rem] " src={svg1} alt="" />
           </a>
           {/* <a href="">
             {" "}
@@ -28,10 +28,10 @@ function Navbar() {
             target="_blank"
           >
             {" "}
-            <img className="w-[1.381rem]" src={svg3} alt="" />
+            <img className="w-[1.381rem]  2xl:w-[2rem]" src={svg3} alt="" />
           </a>
           <a href="https://www.linkedin.com/company/planexaca/" target="_blank">
-            <img className="w-[1.381rem]" src={svg4} alt="" />
+            <img className="w-[1.381rem]  2xl:w-[2rem]" src={svg4} alt="" />
           </a>
         </div>
         {/* <h1 className="text-[1rem] font-semibold lg:hidden ">Download</h1> */}

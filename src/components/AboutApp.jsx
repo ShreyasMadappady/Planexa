@@ -16,8 +16,8 @@ function AboutApp() {
   };
 
   return (
-    <div className="">
-      <div className=" items-center pt-[2.33rem] px-[1.63rem] pb-[5.09rem] lg:hidden ">
+    <div className=" 2xl:mx-[10rem]">
+      <div className=" items-center pt-[2.33rem] px-[1.63rem] pb-[5.09rem] lg:hidden  2xl:mx-[4rem]">
         <h1
           className={`text-4xl font-bold mb-[1.33rem]  text-[#252122]   lg:text-[3.556rem]`}
         >

@@ -17,7 +17,7 @@ function About() {
     arrows: false,
   };
   return (
-    <div className="flex flex-col lg:flex-row  gap-[2.625rem] mx-[5%] my-[2.54rem] lg:my-[5.474rem] xl:mx-[10%]">
+    <div className="flex flex-col lg:flex-row  gap-[2.625rem] mx-[5%] 2xl:mx-[15%]  2xl:gap-[4rem] my-[2.54rem] lg:my-[5.474rem] xl:mx-[10%]">
       <div className="bg-black  rounded-[1.64rem] lg:w-6/12 lg:rounded-[2.778rem] flex flex-col justify-between ">
         <motion.div
           initial={{
@@ -107,7 +107,13 @@ function About() {
               Mission
             </h1>
             <h2 className="text-[#FFF1E1] pb-[2.52rem] text-[1.03rem] lg:text-[1.556rem] hyphens-auto">
-              Our mission is to create a dynamic platform that unites diverse communities through sports,events, and festivals, fostering inclusivity and wellness. We strive to connect people from all cultures, enhancing mutual understanding and support through enriching experiences. By making these collective opportunities widely accessible, we empower individuals and communities to celebrate cultural diversity and pursue holistic health together.
+              Our mission is to create a dynamic platform that unites diverse
+              communities through sports,events, and festivals, fostering
+              inclusivity and wellness. We strive to connect people from all
+              cultures, enhancing mutual understanding and support through
+              enriching experiences. By making these collective opportunities
+              widely accessible, we empower individuals and communities to
+              celebrate cultural diversity and pursue holistic health together.
             </h2>
           </motion.div>{" "}
         </Slider>

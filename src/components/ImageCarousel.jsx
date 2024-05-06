@@ -13,7 +13,7 @@ import img8 from "../svgs/applestore.svg";
 function ImageCarousel() {
   const settings = {
     dots: false,
-    speed:1000,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
     infinite: true,
@@ -23,31 +23,31 @@ function ImageCarousel() {
   };
 
   return (
-    <div className="relative w-full">
+    <div className="relative w-full ">
       <Slider {...settings}>
         {" "}
         <img
-          className=" h-[19.029rem]  lg:h-[38.6rem] object-cover "
+          className=" h-[19.029rem] 2xl:h-[50rem] lg:h-[38.6rem] object-center object-cover"
           src={img1}
           alt=""
         />
         <img
-          className=" h-[19.029rem]  lg:h-[38.6rem] object-cover "
+          className=" h-[19.029rem] 2xl:h-[50rem]  lg:h-[38.6rem] object-center object-cover"
           src={img2}
           alt=""
         />
         <img
-          className=" h-[19.029rem]  lg:h-[38.6rem] object-cover "
+          className=" h-[19.029rem]  2xl:h-[50rem] lg:h-[38.6rem] object-center object-cover"
           src={img3}
           alt=""
         />
         <img
-          className=" h-[19.029rem]  lg:h-[38.6rem] object-cover "
+          className=" h-[19.029rem] 2xl:h-[50rem]  lg:h-[38.6rem] object-center object-cover"
           src={img4}
           alt=""
         />
         <img
-          className=" h-[19.029rem]  lg:h-[38.6rem] object-cover "
+          className=" h-[19.029rem]  2xl:h-[50rem] lg:h-[38.6rem] object-center object-cover"
           src={img5}
           alt=""
         />
@@ -76,13 +76,13 @@ function ImageCarousel() {
           </h1>{" "}
         </div> */}
       </Slider>
-      <div className=" text-[3.12rem] flex flex-col text-white absolute top-[0%] lg:top-[20%] font-semibold pl-[2.21rem] py-[5rem] leading-[3.54rem] lg:text-[6.37rem] lg:gap-16  ">
+      <div className=" text-[3.12rem] flex flex-col 2xl:pl-36 text-white absolute top-[0%] lg:top-[20%] font-semibold pl-[2.21rem] py-[5rem] leading-[3.54rem] lg:text-[6.37rem] lg:gap-16  ">
         {" "}
         <h1>You plan,</h1> <h1>We execute</h1>{" "}
       </div>{" "}
-      <div className="  flex  absolute top-[56%] lg:top-[60%] font-semibold pl-[2.21rem]  leading-[3.54rem]  lg:gap-16  ">
+      <div className="  flex 2xl:pl-36  absolute top-[56%] lg:top-[60%] font-semibold pl-[2.21rem]  leading-[3.54rem]  lg:gap-16  ">
         {" "}
-        <div className="flex gap-[0.563rem] ">
+        <div className="flex 2xl:gap-[1rem] gap-[0.563rem] ">
           {" "}
           <button>
             <img className="lg:w-[200px]" src={img7} alt="" />
