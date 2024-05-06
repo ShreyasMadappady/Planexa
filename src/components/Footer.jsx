@@ -15,15 +15,32 @@ function Footer() {
           Download app
         </button>
         <div className="flex gap-[2.11rem] lg:hidden">
-          <img src={svg1} alt="" />
-          <img src={svg2} alt="" />
-          <img src={svg3} alt="" />
-          <img src={svg4} alt="" />
+          <a
+            href="https://www.facebook.com/profile.php?id=61558578759650&mibextid=ZbWKwL"
+            target="_blank"
+          >
+            <img src={svg1} alt="" />
+          </a>
+          <a
+            href="https://www.instagram.com/planexa.ca?utm_source=qr&igsh=eXZiemwzdXU2eGY="
+            target="_blank"
+          >
+            <img src={svg3} alt="" />
+          </a>
+          <a href="https://www.linkedin.com/company/planexaca/" target="_blank">
+            <img src={svg4} alt="" />
+          </a>
         </div>{" "}
         <div className="text-[#252122] text-[1.42rem] font-semibold flex flex-col items-center lg:text-[2rem] lg:self-start lg:items-start lg:pl-[4.688rem]">
           {" "}
           <h1>Contact us:</h1>
-          <h2 className="lg:font-bold">info@planexa.ca</h2>{" "}
+          <a
+            href="mailto:info@planexa.ca"
+            target="_blank"
+            className="lg:font-bold"
+          >
+            info@planexa.ca
+          </a>{" "}
         </div>
       </div>
     </div>
