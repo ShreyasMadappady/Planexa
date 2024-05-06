@@ -39,7 +39,7 @@ function About() {
           <h1 className="text-[#F49C25] text-[2.04rem] font-bold pb-[0.46rem] lg:text-[3.07rem]">
             Who Are We
           </h1>
-          <h2 className="text-[#FFF1E1] pb-[2.52rem] text-[1.03rem] lg:text-[1.556rem]  hyphens-auto ">
+          <h2 className="text-[#FFF1E1] pb-[2.52rem] text-[1.03rem] lg:text-[1.556rem]   ">
             Founded on the principles of inclusivity, health, and connectivity.
             We are a movement towards creating a more engaged, healthy, and
             united community. We excel in orchestrating diverse sports and
@@ -76,7 +76,7 @@ function About() {
             <h1 className="text-[#F49C25] text-[2.04rem] font-bold pb-[0.46rem] lg:text-[3.07rem]">
               Vision
             </h1>
-            <h2 className="text-[#FFF1E1] pb-[2.52rem] text-[1.03rem] lg:text-[1.556rem]  hyphens-auto ">
+            <h2 className="text-[#FFF1E1] pb-[2.52rem] text-[1.03rem] lg:text-[1.556rem]   ">
               We envision a world where sports and events are not just
               activities, but catalysts for forging enduring relationships,
               nurturing holistic health, and building resilient generations. Our
@@ -106,7 +106,7 @@ function About() {
             <h1 className="text-[#F49C25] text-[2.04rem] font-bold pb-[0.46rem] lg:text-[3.07rem]">
               Mission
             </h1>
-            <h2 className="text-[#FFF1E1] pb-[2.52rem] text-[1.03rem] lg:text-[1.556rem] hyphens-auto">
+            <h2 className="text-[#FFF1E1] pb-[2.52rem] text-[1.03rem] lg:text-[1.556rem] ">
               Our mission is to create a dynamic platform that unites diverse
               communities through sports,events, and festivals, fostering
               inclusivity and wellness. We strive to connect people from all
