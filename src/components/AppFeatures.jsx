@@ -3,37 +3,37 @@ import img from "/src/images/Image10.webp";
 
 function AppFeatures() {
   const arr = [
-    "Subscription/Month  ",
+    "Subscription/Month",
     "Transaction Fees",
-    "Chat ",
-    "   Organize event  ",
-    "     Create ",
-    "  Groups/Account ",
-    "  Admin per group/event  ",
-    "     Host and organize  ",
-    "  Share events (URL) ",
-    "  QR Code confirmation receipt  ",
-    "  Organize group/team     ",
-    " Host free  events ",
-    "  Monthly statement (Electronic)  ",
-    "      Request to join groups & chat  ",
-    "       Attendance log for events      ",
-    "  Scan to take attendance (admin)   ",
-    "      Spot attendance confirmation (admin)   ",
-    "      Fast payout      ",
-    "  Instant   payout/transaction   ",
-    "      Discount   Coupons      ",
-    "   Participant   waitlist   ",
-    "      Sponsor  Promotion       ",
-    "  Pop up Notification     ",
-    "    Promote classes/Reccuring events  ",
-    "       24*7 Support",
+    "Chat",
+    "Organize event",
+    "Create",
+    "Groups/Account",
+    "Admin per group/event",
+    "Host and organize",
+    "Share events (URL)",
+    "QR Code confirmation receipt",
+    "Organize group/team",
+    "Host free  events",
+    "Monthly statement (Electronic)",
+    "Request to join groups & chat",
+    "Attendance log for events",
+    "Scan to take attendance (admin)",
+    "Spot attendance confirmation (admin)",
+    "Fast payout",
+    "Instant   payout/transaction",
+    "Discount   Coupons",
+    "Participant   waitlist",
+    "Sponsor  Promotion",
+    "Pop up Notification",
+    "Promote classes/Reccuring events",
+    "24*7 Support",
   ];
   return (
     // <div
     //   className={`bg-[${img}]  text-white flex flex-col items-center font-medium bg-cover py-[3.17rem]  `}
     // >
-    <div className="bg-[url('/src/images/Image10.webp')]  text-white flex flex-col items-center font-medium bg-cover py-[3.17rem]  ">
+    <div className="bg-[url('/src/images/Image10.webp')]  box-border text-white flex flex-col items-center font-medium bg-cover py-[3.17rem]  ">
       <h1 className=" text-[2.25rem] lg:text-[3.876rem]   pb-[2.5rem] lg:pb-[4rem]">
         {" "}
         App Features

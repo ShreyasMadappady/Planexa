@@ -1,42 +1,138 @@
-import { motion } from "framer-motion";
+import { useRef } from "react";
+import "../index.css";
+import {
+  motion,
+  useScroll,
+  useSpring,
+  useTransform,
+  useMotionValue,
+  useVelocity,
+  useAnimationFrame,
+} from "framer-motion";
+import { wrap } from "@motionone/utils";
 
-const slides = ["FOOTBALL ", "BASKETBALL", "ICEHOCKEY", "BASKETBALL"];
-function FooterSlider() {
-  const duplicatedSlides = [...slides, ...slides];
+function LoopItems({ items, baseVelocity }) {
+  const arr = items;
+  const baseX = useMotionValue(0);
+  const { scrollY } = useScroll();
+  const scrollVelocity = useVelocity(scrollY);
+  const smoothVelocity = useSpring(scrollVelocity, {
+    damping: 50,
+    stiffness: 400,
+  });
+  const velocityFactor = useTransform(smoothVelocity, [0, 1000], [0, 5], {
+    clamp: false,
+  });
+
+  /**
+   * This is a magic wrapping for the length of the text - you
+   * have to replace for wrapping that works for you or dynamically
+   * calculate
+   */
+  const x = useTransform(baseX, (v) => `${wrap(-20, -45, v)}%`);
+
+  const directionFactor = useRef(1);
+  useAnimationFrame((t, delta) => {
+    let moveBy = directionFactor.current * baseVelocity * (delta / 1000);
+
+    /**
+     * This is what changes the direction of the scroll once we
+     * switch scrolling directions.
+     */
+    if (velocityFactor.get() < 0) {
+      directionFactor.current = -1;
+    } else if (velocityFactor.get() > 0) {
+      directionFactor.current = 1;
+    }
+
+    moveBy += directionFactor.current * moveBy * velocityFactor.get();
+
+    baseX.set(baseX.get() + moveBy);
+  });
+  /**
+   * The number of times to repeat the child text should be dynamically calculated
+   * based on the size of the text and viewport. Likewise, the x motion value is
+   * currently wrapped between -20 and -45% - this 25% is derived from the fact
+   * we have four children (100% / 4). This would also want deriving from the
+   * dynamically generated number of children.
+   */
   return (
-    // <div className="bg-black text-[#FFF1E1] flex justify-between px-4 py-[1.12rem] text-xs mb-[2.90rem] font-medium ">
-    //   <h1>FOOTBALL</h1>
-    //   <h1>•</h1>
-    //   <h1>BASKETBALL</h1> <h1>•</h1>
-    //   <h1>ICEHOCKEY</h1> <h1>•</h1>
-    //   <h1>ICEHOCKEY</h1>
-    // </div>
-    <div className="relative w-full overflow-hidden">
-      {/* Wrapping div for seamless looping */}
-      <motion.div
-        className="flex"
-        animate={{
-          x: ["-100%", "0%"],
-          transition: {
-            ease: "linear",
-            duration: 5,
-            repeat: Infinity,
-          },
-        }}
-      >
-        {duplicatedSlides.map((slide, index) => (
-          <div
-            key={index}
-            className="flex-shrink-0 "
-            style={{ width: `${100 / slides.length}%` }}
-          >
-            <div className="bg-black  items-center justify-center   text-[#FFF1E1] flex   py-[1.12rem] text-xs mb-[2.90rem] font-medium lg:text-[1.333rem] lg:py-[1.5rem] ">
-              {slide}
-            </div>
-          </div>
-        ))}
-      </motion.div>
+    <div>
+      <div className="parallax">
+        <motion.div className="scroller " style={{ x }}>
+          {arr.map((e) => {
+            return (
+              <span className="" key={e}>
+                {e}
+              </span>
+            );
+          })}
+        </motion.div>
+      </div>
     </div>
+  );
+}
+
+function FooterSlider() {
+  const items1 = [
+    "Hockey",
+    "•",
+    "Basketball",
+    "•",
+    "Yoga Class",
+    "•",
+    "Volleyball",
+    "•",
+    "Football",
+    "•",
+    "Zumba Class",
+    "•",
+    "American Soccer",
+    "•",
+    "Badminton",
+    "•",
+    "Cricket",
+    "•",
+    "Dance Class",
+    "•",
+    "Softball",
+    "•",
+    "Marathon",
+    "•",
+    "Community Gathering",
+    "•",
+    "Hockey",
+    "•",
+    "Basketball",
+    "•",
+    "Yoga Class",
+    "•",
+    "Volleyball",
+    "•",
+    "Football",
+    "•",
+    "Zumba Class",
+    "•",
+    "American Soccer",
+    "•",
+    "Badminton",
+    "•",
+    "Cricket",
+    "•",
+    "Dance Class",
+    "•",
+    "Softball",
+    "•",
+    "Marathon",
+    "•",
+    "Community Gathering",
+    "•",
+  ];
+  //className="bg-black  items-center    text-[#FFF1E1] flex      "
+  return (
+    <section className=" flex font-medium uppercase lg:text-[1.333rem]  text-[0.75rem] lg:py-[1.5rem] py-[1.12rem]   flex-col gap-[0.5rem] mb-[2.90rem]  bg-[#252122]  ">
+      <LoopItems baseVelocity={3} items={items1}></LoopItems>
+    </section>
   );
 }
 

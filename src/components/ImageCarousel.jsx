@@ -13,12 +13,12 @@ import img8 from "../svgs/applestore.svg";
 function ImageCarousel() {
   const settings = {
     dots: false,
-    speed: 1000,
+    speed:1000,
     slidesToShow: 1,
     slidesToScroll: 1,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2000,
     arrows: false,
   };
 

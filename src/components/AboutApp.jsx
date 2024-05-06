@@ -20,7 +20,7 @@ function AboutApp() {
         <h1 className="text-4xl font-bold mb-[1.33rem]  text-[#252122] lg:text-[3.556rem]">
           How it works
         </h1>{" "}
-        <h2 className="w-[5.56rem]  mb-[2.33rem] bg-[#252122] self-start h-0.5 lg:w-[16.41rem]"></h2>
+        <h2 className="w-[10rem]  mb-[2.33rem] bg-[#252122] self-start h-0.5 lg:w-[16.41rem]"></h2>
         <img
           className="rounded-[1.83rem]  mb-[2.33rem] lg:w-[40%] lg:h-[48.137rem] lg:rounded-[2.778rem] cover"
           src={img}
@@ -29,7 +29,7 @@ function AboutApp() {
         <Slider {...settings}>
           {" "}
           <div>
-            <h1 className="text-[1.5rem] font-bold pb-[0.5rem] text-[#252122]">
+            <h1 className="text-[1.7rem] font-bold pb-[0.5rem] text-[#252122]">
               1. Download and Sign Up.
             </h1>
             <h2 className="text-[1.5rem] font-normal text-[#252122]">
@@ -40,7 +40,7 @@ function AboutApp() {
           </div>
           <div>
             {" "}
-            <h1 className="text-[1.5rem] font-bold pb-[0.5rem] text-[#252122]">
+            <h1 className="text-[1.7rem] font-bold pb-[0.5rem] text-[#252122]">
               2. Create or join an event.
             </h1>
             <h2 className="text-[1.5rem] font-normal text-[#252122]">
@@ -53,7 +53,7 @@ function AboutApp() {
           </div>
           <div>
             {" "}
-            <h1 className="text-[1.5rem] font-bold pb-[0.5rem] text-[#252122]">
+            <h1 className="text-[1.7em] font-bold pb-[0.5rem] text-[#252122]">
               3. Organize, Payout and Connect.
             </h1>
             <h2 className="text-[1.5rem] font-normal text-[#252122]">
