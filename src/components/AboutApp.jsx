@@ -14,10 +14,13 @@ function AboutApp() {
     autoplaySpeed: 4000,
     arrows: false,
   };
+
   return (
     <div className="">
       <div className=" items-center pt-[2.33rem] px-[1.63rem] pb-[5.09rem] lg:hidden ">
-        <h1 className="text-4xl font-bold mb-[1.33rem]  text-[#252122] lg:text-[3.556rem]">
+        <h1
+          className={`text-4xl font-bold mb-[1.33rem]  text-[#252122]   lg:text-[3.556rem]`}
+        >
           How it works
         </h1>{" "}
         <h2 className="w-[10rem]  mb-[2.33rem] bg-[#252122] self-start h-0.5 lg:w-[16.41rem]"></h2>
@@ -69,9 +72,11 @@ function AboutApp() {
       <div className=" items-center mt-[5.474rem]  pb-[5.09rem] hidden  lg:flex flex-row  justify-between xl:px-[3.208rem] gap-">
         <div className="w-5/12">
           {" "}
-          <h1 className="text-4xl font-bold mb-[2.33rem]  text-[#252122] lg:text-[3.556rem]">
+          <h1
+            className={`text-4xl font-bold mb-[2.33rem]  text-[#252122] lg:text-[3.556rem]`}
+          >
             How it works
-          </h1>{" "}
+          </h1>
           <h2 className="w-[5.56rem]  mb-[2.33rem] bg-[#252122] self-start h-0.5 lg:w-[16.41rem]"></h2>{" "}
           <Slider {...settings}>
             <div>
