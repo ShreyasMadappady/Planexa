@@ -76,7 +76,7 @@ function AppFeatures() {
           return (
             <div
               key={index}
-              className="grid grid-cols-2   pl-[0.938rem]  lg:pl-[2.813rem] text-[#533F24] bg-[#FFF1E1] my-[0.149rem] text-[0.672rem]  lg:text-[2.01rem]    mx-auto  py-[0.538rem] font-medium"
+              className="grid grid-cols-2 gap-2  pl-[0.938rem]  lg:pl-[2.813rem] text-[#533F24] bg-[#FFF1E1] my-[0.149rem] text-[0.672rem]  lg:text-[2.01rem]    mx-auto  py-[0.538rem] font-medium"
             >
               <h1 className="text-start  lg:text-[2.01rem]   text-[0.9rem]">
                 {e.feature}
