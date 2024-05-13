@@ -9,7 +9,7 @@ import img3 from "/src/svgs/Howitworks3.svg";
 function AboutApp() {
   return (
     <div className=" 2xl:mx-[10rem] text-[#252122] ">
-      <div className=" items-center pt-[2.33rem] px-[1.63rem] pb-[5.09rem] lg:hidden  2xl:mx-[4rem]">
+      <div className=" items-center pt-[2.33rem] px-[1.63rem] pb-[5.09rem] lg:hidden  2xl:mx-[4rem] ">
         <h1
           className={`text-4xl font-bold mb-[1.33rem]  text-[#252122]   lg:text-[3.556rem]`}
         >
@@ -67,7 +67,7 @@ function AboutApp() {
           </div>
         </div>
       </div>
-      <div className=" items-center mt-[5.474rem]  pb-[5.09rem] hidden lg:items-end lg:flex flex-row  justify-between xl:px-[3.208rem] gap-">
+      <div className=" items-center mt-[5.474rem]  pb-[5.09rem] hidden lg:items-end lg:flex flex-row  justify-between xl:px-[5rem] ">
         <div className="w-5/12">
           {" "}
           <h1
@@ -123,7 +123,7 @@ function AboutApp() {
           </div>
         </div>
         <img
-          className="  mb-[2.33rem] w-[50%] lg:h-[53rem]  lg:w-[34.875rem]  lg:rounded-[2.778rem] cover"
+          className="  mb-[2.33rem] w-[50%] lg:h-[53rem]  lg:w-[34.875rem] 2xl:w-[40rem]  lg:rounded-[2.778rem] cover"
           src={img}
           alt=""
         />
