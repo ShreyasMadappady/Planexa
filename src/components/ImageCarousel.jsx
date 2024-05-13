@@ -9,15 +9,14 @@ import "slick-carousel/slick/slick-theme.css";
 // import img6 from "../images/Image1.png";
 // import img7 from "../svgs/googleplay.svg";
 // import img8 from "../svgs/applestore.svg";
-import img1 from "/src/svgs/img3.svg";
-import img2 from "/src/svgs/img4.svg";
-import img3 from "/src/svgs/img5.svg";
-import img4 from "/src/svgs/img6.svg";
-import img5 from "/src/svgs/img7.svg";
-import img6 from "../images/Image1.png";
+import img1 from "/src/images/img1.jpg";
+import img2 from "/src/images/img2.jpg";
+import img3 from "/src/images/img3.jpg";
+import img4 from "/src/images/img4.jpg";
+import img5 from "/src/images/img5.jpg";
+
 import img7 from "../svgs/googleplay.svg";
 import img8 from "../svgs/applestore.svg";
-
 
 function ImageCarousel() {
   const settings = {
