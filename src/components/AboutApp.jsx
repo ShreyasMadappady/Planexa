@@ -29,7 +29,7 @@ function AboutApp() {
                 Download and Sign Up
               </div>
             </div>
-            <h2 className="text-[1rem]    w-11/12  text-[#252122] ">
+            <h2 className="text-[1rem]    w-12/12  text-[#252122] ">
               Download our app from either the App Store or Google Play Store.
               Our intuitive user interface ensures a seamless onboarding
               process, making it effortless for you to get started.

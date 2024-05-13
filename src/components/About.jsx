@@ -7,14 +7,14 @@ import "slick-carousel/slick/slick-theme.css";
 
 function About() {
   const settings = {
-    dots: false,
+    dots: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     infinite: true,
     autoplay: true,
     autoplaySpeed: 5000,
-    arrows: false,
+    arrows: true,
   };
   return (
     <div className="flex flex-col lg:flex-row  gap-[2.625rem] mx-[5%] 2xl:mx-[15%]  2xl:gap-[4rem] my-[2.54rem] lg:my-[5.474rem] xl:mx-[10%]">
