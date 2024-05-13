@@ -18,7 +18,7 @@ function About() {
   };
   return (
     <div className="flex flex-col lg:flex-row  gap-[2.625rem] mx-[5%] 2xl:mx-[15%]  2xl:gap-[4rem] my-[2.54rem] lg:my-[5.474rem] xl:mx-[10%]">
-      <div className="bg-black  rounded-[1.64rem] lg:w-6/12 lg:rounded-[2.778rem] flex flex-col justify-between ">
+      <div className="bg-black hover:bg-[#252122] rounded-[1.64rem] lg:w-6/12 lg:rounded-[2.778rem] flex flex-col justify-between ">
         <motion.div
           initial={{
             opacity: 0,
@@ -54,7 +54,7 @@ function About() {
           alt=""
         />
       </div>{" "}
-      <div className="bg-[#252122] lg:w-6/12 rounded-[1.64rem]  lg:rounded-[2.778rem] flex flex-col justify-between">
+      <div className="bg-black hover:bg-[#252122]  lg:w-6/12 rounded-[1.64rem]  lg:rounded-[2.778rem] flex flex-col justify-between">
         <Slider {...settings}>
           <motion.div
             initial={{

@@ -1,217 +1,114 @@
 import { motion } from "framer-motion";
 import img from "/src/images/Image10.webp";
+import yes from "../svgs/yes.svg";
+import no from "../svgs/no.svg";
 
 function AppFeatures() {
   const arr = [
-    "Subscription/Month",
-    "Transaction Fees",
-    "Chat",
-    "Organize event",
-    "Create",
-    "Groups/Account",
-    "Admin per group/event",
-    "Host and organize",
-    "Share events (URL)",
-    "QR Code confirmation receipt",
-    "Organize group/team",
-    "Host free  events",
-    "Monthly statement (Electronic)",
-    "Request to join groups & chat",
-    "Attendance log for events",
-    "Scan to take attendance (admin)",
-    "Spot attendance confirmation (admin)",
-    "Fast payout",
-    "Instant   payout/transaction",
-    "Discount   Coupons",
-    "Participant   waitlist",
-    "Sponsor  Promotion",
-    "Pop up Notification",
-    "Promote classes/Reccuring events",
-    "24*7 Support",
+    { feature: "Subscription", basic: "yes", premium: "$49/mo" },
+    {
+      feature: "Transaction Fees",
+      basic: "0.30$+4.99%",
+      premium: "0.30$+4.99%",
+    },
+    { feature: "Chat", basic: "yes", premium: "yes" },
+    { feature: "Organize event", basic: "yes", premium: "yes" },
+    { feature: "Create group/account", basic: "2", premium: "Unlimited" },
+    { feature: "Admin group/event", basic: "2", premium: "10" },
+    { feature: "Host & organize", basic: "yes", premium: "yes" },
+    { feature: "Share events (URL)", basic: "yes", premium: "yes" },
+    { feature: "QR code confirmation", basic: "yes", premium: "yes" },
+    { feature: "Organize group/team", basic: "yes", premium: "yes" },
+    { feature: "Host free events", basic: "yes", premium: "yes" },
+    { feature: "Monthly statements", basic: "yes", premium: "yes" },
+    { feature: "Request to join groups & chat", basic: "yes", premium: "yes" },
+    { feature: "Attendance log for events", basic: "yes", premium: "yes" },
+    { feature: "Scan for attendance (admin)", basic: "yes", premium: "yes" },
+    { feature: "Spot attendance (admin)", basic: "yes", premium: "yes" },
+    { feature: "Fast payout", basic: "no", premium: "0.99$" },
+    { feature: "Discount Coupons", basic: "no", premium: "yes" },
+    { feature: "Participant waitlist", basic: "no", premium: "yes" },
+    { feature: "Sponsor Promotion", basic: "no", premium: "yes" },
+    { feature: "Pop up Notification", basic: "yes", premium: "yes" },
+    { feature: "Promote classes/events", basic: "yes", premium: "yes" },
+    { feature: "24x7 Support", basic: "yes", premium: "yes" },
   ];
+  // const arr = [
+  //   "Subscription/Month",
+  //   "Transaction Fees",
+  //   "Chat",
+  //   "Organize event",
+  //   "Create",
+  //   "Groups/Account",
+  //   "Admin per group/event",
+  //   "Host and organize",
+  //   "Share events (URL)",
+  //   "QR Code confirmation receipt",
+  //   "Organize group/team",
+  //   "Host free  events",
+  //   "Monthly statement (Electronic)",
+  //   "Request to join groups & chat",
+  //   "Attendance log for events",
+  //   "Scan to take attendance (admin)",
+  //   "Spot attendance confirmation (admin)",
+  //   "Fast payout",
+  //   "Instant   payout/transaction",
+  //   "Discount   Coupons",
+  //   "Participant   waitlist",
+  //   "Sponsor  Promotion",
+  //   "Pop up Notification",
+  //   "Promote classes/Reccuring events",
+  //   "24*7 Support",
+  // ];
   return (
-    // <div
-    //   className={`bg-[${img}]  text-white flex flex-col items-center font-medium bg-cover py-[3.17rem]  `}
-    // >
-    <div className="bg-[url('/src/images/Image10.webp')] bg-center box-border text-white flex flex-col items-center font-medium bg-cover py-[3.17rem]  ">
-      <h1 className=" text-[2.25rem] lg:text-[3.876rem]   pb-[2.5rem] lg:pb-[4rem]">
+    <div className="bg-[url('/src/images/Image10.webp')] bg-center box-border text-white   bg-cover lg:py-[6.313rem]   py-[2.111rem]">
+      <div className="mx-auto w-[85%] lg:w-[90%]">
         {" "}
-        App Features
-      </h1>
-      <div className="w-8/12 mx-auto ">
-        <div className="flex flex-col items-start lg:grid lg:grid-cols-2 lg:gap-x-20">
-          {arr.map((item, index) => {
-            return (
-              <motion.h1
-                key={index + 1}
-                initial={{
-                  opacity: 0,
-                  // if odd index card,slide from right instead of left
-                  y: 50,
-                }}
-                whileInView={{
-                  opacity: 1,
-                  y: 0, // Slide in to its original position
-                  transition: {
-                    duration: 1, // Animation duration
-                  },
-                }}
-                viewport={{ once: true }}
-                className="text-[1.5rem]   pb-[2.5rem] lg:text-[2.188rem]"
-              >
-                {index + 1}. {" " + item}
-              </motion.h1>
-            );
-          })}
-
-          {/* <motion.h1
-            initial={{
-              opacity: 0,
-              // if odd index card,slide from right instead of left
-              y: 50,
-            }}
-            whileInView={{
-              opacity: 1,
-              y: 0, // Slide in to its original position
-              transition: {
-                duration: 1, // Animation duration
-              },
-            }}
-            viewport={{ once: true }}
-            className="text-[2rem]  pb-[2.5rem]"
-          >
-            1. ABC one
-          </motion.h1>
-          <motion.h1
-            initial={{
-              opacity: 0,
-              // if odd index card,slide from right instead of left
-              y: 50,
-            }}
-            whileInView={{
-              opacity: 1,
-              y: 0, // Slide in to its original position
-              transition: {
-                duration: 1, // Animation duration
-              },
-            }}
-            viewport={{ once: true }}
-            className="text-[2rem]  pb-[2.5rem]"
-          >
-            1. ABC one
-          </motion.h1>
-          <motion.h1
-            initial={{
-              opacity: 0,
-              // if odd index card,slide from right instead of left
-              y: 50,
-            }}
-            whileInView={{
-              opacity: 1,
-              y: 0, // Slide in to its original position
-              transition: {
-                duration: 1, // Animation duration
-              },
-            }}
-            viewport={{ once: true }}
-            className="text-[2rem]  pb-[2.5rem]"
-          >
-            1. ABC one
-          </motion.h1>
-          <motion.h1
-            initial={{
-              opacity: 0,
-              // if odd index card,slide from right instead of left
-              y: 50,
-            }}
-            whileInView={{
-              opacity: 1,
-              y: 0, // Slide in to its original position
-              transition: {
-                duration: 1, // Animation duration
-              },
-            }}
-            viewport={{ once: true }}
-            className="text-[2rem]  pb-[2.5rem]"
-          >
-            1. ABC one
-          </motion.h1>
-        </div>
-        <div className="">
-          {" "}
-          <motion.h1
-            initial={{
-              opacity: 0,
-              // if odd index card,slide from right instead of left
-              y: 50,
-            }}
-            whileInView={{
-              opacity: 1,
-              y: 0, // Slide in to its original position
-              transition: {
-                duration: 1, // Animation duration
-              },
-            }}
-            viewport={{ once: true }}
-            className="text-[2rem]  pb-[2.5rem]"
-          >
-            1. ABC one
-          </motion.h1>
-          <motion.h1
-            initial={{
-              opacity: 0,
-              // if odd index card,slide from right instead of left
-              y: 50,
-            }}
-            whileInView={{
-              opacity: 1,
-              y: 0, // Slide in to its original position
-              transition: {
-                duration: 1, // Animation duration
-              },
-            }}
-            viewport={{ once: true }}
-            className="text-[2rem]  pb-[2.5rem]"
-          >
-            1. ABC one
-          </motion.h1>
-          <motion.h1
-            initial={{
-              opacity: 0,
-              // if odd index card,slide from right instead of left
-              y: 50,
-            }}
-            whileInView={{
-              opacity: 1,
-              y: 0, // Slide in to its original position
-              transition: {
-                duration: 1, // Animation duration
-              },
-            }}
-            viewport={{ once: true }}
-            className="text-[2rem]  pb-[2.5rem]"
-          >
-            1. ABC one
-          </motion.h1>
-          <motion.h1
-            initial={{
-              opacity: 0,
-              // if odd index card,slide from right instead of left
-              y: 50,
-            }}
-            whileInView={{
-              opacity: 1,
-              y: 0, // Slide in to its original position
-              transition: {
-                duration: 1, // Animation duration
-              },
-            }}
-            viewport={{ once: true }}
-            className="text-[2rem]  pb-[2.5rem]"
-          >
-            1. ABC one
-          </motion.h1> */}
-        </div>
+        <div className="grid grid-cols-2 justify-between pl-[0.938rem] lg:pl-[2.813rem] mb-1 font-bold bg-[#F49C25] text-[0.672rem] lg:text-[2.01rem]  mx-auto  py-[0.538rem]">
+          <h1 className=" text-start">FEATURES</h1>{" "}
+          <div className="grid grid-cols-2">
+            {" "}
+            <h1 className=" text-start">BASIC</h1>
+            <h1 className="text-start">PREMIUM</h1>
+          </div>
+        </div>{" "}
+        {arr.map((e, index) => {
+          return (
+            <div
+              key={index}
+              className="grid grid-cols-2   pl-[0.938rem]  lg:pl-[2.813rem] text-[#533F24] bg-[#FFF1E1] my-[0.149rem] text-[0.672rem]  lg:text-[2.01rem]    mx-auto  py-[0.538rem] font-medium"
+            >
+              <h1 className="text-start  lg:text-[2.01rem]   text-[0.625rem]">
+                {e.feature}
+              </h1>
+              <div className="grid items-center grid-cols-2 ">
+                {e.basic == "yes" || e.basic == "no" ? (
+                  <img
+                    className="lg:w-[1.6rem]"
+                    src={e.basic == "yes" ? yes : no}
+                    alt=""
+                  />
+                ) : (
+                  <h1 className="text-start  lg:text-[2.01rem]   text-[0.672rem]">
+                    {e.basic}
+                  </h1>
+                )}
+                {e.premium == "yes" || e.premium == "no" ? (
+                  <img
+                    className="lg:w-[1.6rem]"
+                    src={e.premium == "yes" ? yes : no}
+                    alt=""
+                  />
+                ) : (
+                  <h1 className="text-start  lg:text-[2.01rem]   text-[0.672rem]">
+                    {e.premium}
+                  </h1>
+                )}
+              </div>
+            </div>
+          );
+        })}
+        <div></div>
       </div>
     </div>
   );
