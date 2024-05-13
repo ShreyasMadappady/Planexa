@@ -69,7 +69,7 @@ function AppFeatures() {
           <div className="grid grid-cols-2">
             {" "}
             <h1 className=" text-start">BASIC</h1>
-            <h1 className="text-start">PREMIUM</h1>
+            <h1 className="text-start">PREMIUM*</h1>
           </div>
         </div>{" "}
         {arr.map((e, index) => {
@@ -100,7 +100,7 @@ function AppFeatures() {
                     alt=""
                   />
                 ) : (
-                  <h1 className="text-start  lg:text-[2.01rem]   text-[0.8rem]">
+                  <h1 className="text-start  lg:text-[2.01rem]   text-[0.8rem] ">
                     {e.premium}
                   </h1>
                 )}
@@ -108,8 +108,8 @@ function AppFeatures() {
             </div>
           );
         })}
-        <div></div>
-      </div>
+   
+      </div ><h1 className="mx-auto w-[85%] lg:w-[90%] text-end text-[#B0B0B0] lg:text-[2.01rem]   text-[0.8rem]">*premium features are coming soon </h1>
     </div>
   );
 }

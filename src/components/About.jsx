@@ -1,6 +1,6 @@
 import img1 from "../images/Image11.webp";
 import img2 from "../images/Image12.webp";
-import { motion } from "framer-motion";
+import { color, motion } from "framer-motion";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -15,6 +15,8 @@ function About() {
     autoplay: true,
     autoplaySpeed: 5000,
     arrows: true,
+    color:"white"
+
   };
   return (
     <div className="flex flex-col lg:flex-row  gap-[2.625rem] mx-[5%] 2xl:mx-[15%]  2xl:gap-[4rem] my-[2.54rem] lg:my-[5.474rem] xl:mx-[10%]">
@@ -54,7 +56,7 @@ function About() {
           alt=""
         />
       </div>{" "}
-      <div className="bg-black hover:bg-[#252122]  lg:w-6/12 rounded-[1.64rem]  lg:rounded-[2.778rem] flex flex-col justify-between">
+      <div className="bg-black hover:bg-[#252122] gap-10  lg:w-6/12 rounded-[1.64rem]  lg:rounded-[2.778rem] flex flex-col justify-between">
         <Slider {...settings}>
           <motion.div
             initial={{
@@ -76,7 +78,7 @@ function About() {
             <h1 className="text-[#F49C25] text-[2.04rem] font-bold pb-[0.46rem] lg:text-[3.07rem]">
               Vision
             </h1>
-            <h2 className="text-[#FFF1E1] pb-[2.52rem] text-[1.03rem] lg:text-[1.556rem]   ">
+            <h2 className="text-[#FFF1E1]  text-[1.03rem] lg:text-[1.556rem]   ">
               We envision a world where sports and events are not just
               activities, but catalysts for forging enduring relationships,
               nurturing holistic health, and building resilient generations. Our
@@ -106,7 +108,7 @@ function About() {
             <h1 className="text-[#F49C25] text-[2.04rem] font-bold pb-[0.46rem] lg:text-[3.07rem]">
               Mission
             </h1>
-            <h2 className="text-[#FFF1E1] pb-[2.52rem] text-[1.03rem] lg:text-[1.556rem] ">
+            <h2 className="text-[#FFF1E1] text-[1.03rem] lg:text-[1.556rem] ">
               Our mission is to create a dynamic platform that unites diverse
               communities through sports,events, and festivals, fostering
               inclusivity and wellness. We strive to connect people from all

@@ -1,14 +1,23 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import img1 from "../images/Image1.webp";
-import img2 from "../images/Image4.webp";
-import img3 from "../images/Image2.webp";
-import img4 from "../images/Image5.webp";
-import img5 from "../images/Image3.webp";
+// import img1 from "../images/Image1.webp";
+// import img2 from "../images/Image4.webp";
+// import img3 from "../images/Image2.webp";
+// import img4 from "../images/Image5.webp";
+// import img5 from "../images/Image3.webp";
+// import img6 from "../images/Image1.png";
+// import img7 from "../svgs/googleplay.svg";
+// import img8 from "../svgs/applestore.svg";
+import img1 from "/src/svgs/img3.svg";
+import img2 from "/src/svgs/img4.svg";
+import img3 from "/src/svgs/img5.svg";
+import img4 from "/src/svgs/img6.svg";
+import img5 from "/src/svgs/img7.svg";
 import img6 from "../images/Image1.png";
 import img7 from "../svgs/googleplay.svg";
 import img8 from "../svgs/applestore.svg";
+
 
 function ImageCarousel() {
   const settings = {
